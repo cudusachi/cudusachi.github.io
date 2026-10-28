@@ -1,0 +1,201 @@
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+logo img {
+  width: 180px;
+  float: none;
+  position: relative;
+  left: 10px;
+  top: 25px;
+  display: block;
+}
+
+.my-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-decoration: none;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  text-shadow: #3d3c3d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  text-decoration: overline;
+  color: #656566;
+  text-decoration-thickness: 5px;
+}
+.my-table th,
+.my-table td {
+  border: 0px solid #030303;
+  text-align: center;
+  width: 230px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  background: #000000;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #656566;
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(125, 125, 126, 0.35);
+  transition: 0.3s ease;
+  position: fixed;
+  top: 45px;
+  right: 30px;
+  float: none;
+}
+
+.gmail-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.contact-btn:hover {
+  background: #3d3c3d;
+  box-shadow: 0 0 28px rgba(109, 108, 112, 0.7);
+  transform: translateY(-3px);
+}
+
+/*  custom cursor */
+* {
+  cursor:
+    url("https://cdn.cursors-4u.net/previews/cocochanvt-cocochan-arrow-9de766dc-48.webp")
+      24 24,
+    auto !important;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: none;
+  background-color: #969696;
+  z-index: 1;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 900px;
+}
+
+.hero-image-container {
+  flex: 1;
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 24px;
+  overflow: hidden;
+  max-height: 750px;
+}
+
+.hero-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  min-width: fit-content;
+  max-width: fit-content;
+}
+
+#main-text {
+  font-size: 300%;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 80px;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: #969696;
+}
+
+#second-text {
+  font-size: 20px;
+  margin-left: 170px;
+  font-family: cursive;
+  align-items: center;
+  justify-content: center;
+  background-color: #969696;
+}
+
+#main-text:hover {
+  text-decoration: underline;
+  color: #292829;
+  transform: translateY(-3px);
+}
+
+#second-text:hover {
+  text-decoration: underline;
+  color: #292829;
+  transform: translateY(-3px);
+}
+
+.glow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#about-body {
+  background-color: #adadad;
+  padding: 40px;
+  margin: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.aboutme {
+  font-size: 40px;
+  text-align: justify;
+  justify-items: center;
+}
+
+.aboutme2 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.icon {
+  background-color: #000000;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  width: 40px;
+  padding: 5px;
+}
+
+#table {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.th {
+  width: 100px;
+}
+
+.icon:hover {
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+  transform: translateY(-3px);
+}
