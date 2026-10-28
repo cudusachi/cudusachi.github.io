@@ -96,6 +96,7 @@ a:hover {
 .hero-content {
   flex: 1;
   max-width: 900px;
+  height: auto;
 }
 
 .hero-image-container {
